@@ -1,6 +1,7 @@
 // Policy Role for Code Deploy
 //----------------------------------------------------
 ##  Set of policy for code deploy 
+## Used while creating codedeploy configration. <Attaching ARN>
 //----------------------------------------------------
 {
   "Version": "2012-10-17",
@@ -51,9 +52,10 @@
 
 
 // Instance Role for EC2 Instance
-// ----------------------------------------------
+// --------------------------------------------------------------------------
 ## IAM policy for EC2 roles
-//------------------------------------------------
+## Used while creating EC2, Attaching IAM role at the begning of ec2 creation
+//----------------------------------------------------------------------------
 
 { 
     "Version": "2012-10-17", 
